@@ -91,3 +91,50 @@
 
 #------------------------------//----------------------------
 
+##APRENDENDO A MANIPULAR FUNCOES
+
+# def torrar_pao(pao, nome):
+#     print(f'{nome} está torrando o pão {pao}')
+#     return 
+
+# torrar_pao('pão francês', 'Lucas')
+
+##Gerando um pedido de forma mais avançada
+
+# import random
+
+# print('Seja bem-vindo ao Café da Praça!')
+# print('Hoje temos os seguintes tipos de café: expresso, latte, capuccino e mocha!')
+
+# cafe = input('Vamos começar o seu pedido. Qual café você gostaria? ')
+
+# pedido = random.randrange(0, 100)
+
+# nome = input('Qual o seu nome? ')
+
+# print(f'{nome}, seu pedido é o número {pedido}')
+
+# if cafe == 'expresso':
+#     preco = 5.00
+# elif cafe == 'latte':
+#     preco = 7.00
+# elif cafe == 'capuccino':
+#     preco = 8.00
+# elif cafe == 'mocha':
+#     preco = 9.00
+# else:
+#     preco = 0.00
+
+
+# def fazer_cafe(cafe, pedido, nome = 'Cliente', preco = 0.00):
+#     print(f'O pedido {pedido} está sendo preparado!')
+#     print(f'O pedido inclui um {cafe}, o pedido está em nome de: {nome}!')
+#     print(f'O valor do pedido é R$ {preco}')
+#     print(f'O Pedido {pedido} está pronto!')  
+#     return
+
+# fazer_cafe(cafe, pedido, nome, preco)
+
+
+#------------------------------//----------------------------
+

@@ -4,6 +4,7 @@ exp = int(input("Digite o valor de exp: "))
 name = input("Digite o nome: ")
 print(f'Olá {name}, o valor de exp é {exp}')
 
+
 if exp < 1001:
     nivel = 'Ferro'
 elif exp > 1001 and exp < 2000:
@@ -20,5 +21,6 @@ elif exp > 9001 and exp < 10000:
     nivel = 'Imortal'
 elif exp > 10001:
     nivel = 'Radiante'
+
 
 print(f'O Herói de nome {name} está no nível de {nivel}')
