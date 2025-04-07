@@ -138,3 +138,16 @@
 
 #------------------------------//----------------------------
 
+
+# userName = input('Digite seu nome: ')
+
+# def getFirstName(name):
+#     firstName = name.split(' ')[0]
+#     return firstName
+
+# userName = getFirstName(userName)
+# print(f'Olá {userName}, seja bem-vindo!')
+
+
+#------------------------------//----------------------------
+
